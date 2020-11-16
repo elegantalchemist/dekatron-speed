@@ -1,0 +1,48 @@
+//some dekatrons use a 'single-pulse' driving mechanism with three guides instead of two. (G1, G2, G3, and G3K0 which is linked to G3).
+//this is drop-in code to vary sketches and drive a 3-guide dekatron in a similar way
+//this is NOT a functioning sketch but some drop in parts for other sketches.
+
+//drop code in to replace 2-guide code
+void G_step(int CINT) // Dekatron Stepper
+{
+  if (CINT > 3) CINT = 0;
+  if (CINT == 0)
+  {
+    digitalWrite(Guide1, LOW);
+    digitalWrite(Guide2, LOW);
+    digitalWrite(Guide3, LOW);
+  }
+    if (CINT == 1)
+  {
+    digitalWrite(Guide1, HIGH);
+    digitalWrite(Guide2, LOW);
+    digitalWrite(Guide3, LOW);
+  }
+  if (CINT == 2)
+  {
+    digitalWrite(Guide2, HIGH);
+    digitalWrite(Guide3, LOW);
+    delayMicroseconds(9);
+    digitalWrite(Guide1, LOW);
+  }
+  if (CINT == 3)
+  {
+    digitalWrite(Guide1, LOW);
+    digitalWrite(Guide3, HIGH);
+    delayMicroseconds(9);
+    digitalWrite(Guide2, LOW);  
+  }
+}
+
+// setup() runs once, at reset, to initialize system
+void setup() {
+  pinMode(Guide1, OUTPUT);
+  pinMode(Guide2, OUTPUT);
+  pinMode(Guide3, OUTPUT);
+  pinMode(Index, INPUT);
+  pinMode(LED, OUTPUT);
+ 
+ //////// replacement code for d_count to drop in.
+    if (D_count > 3) D_count = 0;
+  if (D_count < 0) D_count = 3;
+  G_step(D_count);          // Step Dekatron
