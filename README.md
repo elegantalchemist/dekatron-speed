@@ -41,6 +41,8 @@ This library contains several variables which you need to adjust
 ## Testing
 I recommend testing your hardware Dekatron setup with some very basic sketches before progressing to the full sketch here. There are some examples in the examples folder which can be used to test that your Dekatron hardware interface is working OK. If you have full control of your Dekatron and you've confirmed your SNMP agent is responding, now's time to upload the full sketch and test it out! 
 
+The Dekatron speed code has extensive printing to serial to display up, down, percentage utilised and delays etc so you can use this to help identify that the internal code/SNMP is working etc.
+
 ## Feedback
 I'd love to see feedback and projects which have used this library.
 
