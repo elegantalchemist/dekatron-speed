@@ -1,7 +1,9 @@
 # Hardware to drive a Dekatron
 
 Option 1: Buy a dekatron-driving arduino shield (eBay)
+
 Option 2: Roll your own breadboard with discrete materials to generate the 450V and input signals needed - a simple 12V to 450V HV supply is cheap on eBay and. Honestly not as hard as it sounds - Sprite did it here and the main page readme has several examples of how this can be done with really cheap off the shelf components.
+
 Option 3: Have your own PCB Arduino shield fabricated (what I did)
 
 ## What's in here
