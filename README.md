@@ -5,7 +5,7 @@ A project using both hardware and software to fetch current broadband usage from
 ## Materials
 * **Dekatron counting tube** - recommended basic double pulse tubes like the OG4 or A101. Easily available on eBay about £10 or so plus shipping.
 * **ESP8266** - primary controller for the code and signalling the Dekatron - I used a NodeMCU/ESP8266 board easily available on Amazon for about £4 each.
-* **Dekatron power/interface** - the most awkward part, Dekatrons need to be driven at about 400-450V and while the drive process is simple - the high voltage introduces complexity. These can simply be bought from eBay as kits (search arduino dekatron), or you can purchase or make a high voltage power supply and then use this to add interfaces to microcontrollers with some basic resistors/transistors yourself easily - some helpful links below
+* **Dekatron power/interface** - the most awkward part, Dekatrons need to be driven at about 400-450V and while the drive process is simple - the high voltage introduces complexity. Although the voltage is high, maximum current is only about 500microamps so not in danger levels - you can use voltage boosters to drive 5V all the way up to 450V. These can simply be bought from eBay as kits (search arduino dekatron), or you can purchase or make a high voltage power supply and then use this to add interfaces to microcontrollers with some basic resistors/transistors yourself easily - some helpful links below and there is also a folder in this project containing a schematic for a board of my own design being used here;
   * https://www.smbaker.com/interfacing-dekatron-tubes-to-a-microcontroller
   * https://threeneurons.files.wordpress.com/2011/08/dek_tutor_b.jpg
   * https://threeneurons.wordpress.com/dekatron-stuff/
