@@ -41,3 +41,15 @@ I recommend testing your hardware Dekatron setup with some very basic sketches b
 
 ## Feedback
 I'd love to see feedback and projects which have used this library.
+
+## Credits
+ CREDITS
+ Many thanks to shortbloke who wrote an excellent SNMP library which can be used to output to a display
+ https://github.com/shortbloke/Broadband_Usage_Display
+  
+ Many thanks to Sprite of sprites mods who provided the inspiration to do this and useful code on how
+ to drive Dekatrons from an Arduino/ESP8266
+ https://spritesmods.com/?art=dekatron
+ 
+ Many thanks to threeneurons who has an amazing site covering some really in depth stuff on how Dekatrons work, how they get driven and a huge number of schematics covering various situations and types of Dekatron.
+ https://threeneurons.wordpress.com/dekatron-stuff/
