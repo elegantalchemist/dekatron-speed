@@ -2,6 +2,8 @@
 
 A project using both hardware and software to fetch current broadband usage from a router with SNMP (inOctets and outOctets) and display this as a percentage speed on a variable speed Dekatron counting tube, controlled by ESP8266 or similar.
 
+![Gif of Dekatron Speed](https://github.com/elegantalchemist/dekatron-speed/blob/main/images/dekatron%20speed%20gif.gif?raw=true)
+
 ## Materials
 * **Dekatron counting tube** - recommended basic double pulse tubes like the OG4 or A101. Easily available on eBay about £10 or so plus shipping.
 * **ESP8266** - primary controller for the code and signalling the Dekatron - I used a NodeMCU/ESP8266 board easily available on Amazon for about £4 each.
