@@ -43,8 +43,7 @@ I recommend testing your hardware Dekatron setup with some very basic sketches b
 I'd love to see feedback and projects which have used this library.
 
 ## Credits
- CREDITS
- Many thanks to shortbloke who wrote an excellent SNMP library which can be used to output to a display
+ Many thanks to shortbloke who wrote an excellent SNMP library which he used to output to a display and was modified for this project to output to Dekatron
  https://github.com/shortbloke/Broadband_Usage_Display
   
  Many thanks to Sprite of sprites mods who provided the inspiration to do this and useful code on how
