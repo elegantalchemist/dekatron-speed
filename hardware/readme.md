@@ -6,6 +6,8 @@ Option 2: Roll your own breadboard with discrete materials to generate the 450V 
 
 Option 3: Have your own PCB Arduino shield fabricated (what I did)
 
+![Image of Yaktocat](https://user-images.githubusercontent.com/73824834/99296507-c8fc6680-283e-11eb-8532-542c47995ee2.jpg)
+
 ## What's in here
 This folder contains the schematics from which I generated a PCB design which directly mates to an Arduino Uno.
 The PCB had several aims, 'most' of which were achieved
