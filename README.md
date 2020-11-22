@@ -14,6 +14,7 @@ A video of it running against an internet speed test - https://youtu.be/qNa_jXh9
   * https://threeneurons.files.wordpress.com/2011/08/dek_tutor_b.jpg
   * https://threeneurons.wordpress.com/dekatron-stuff/
 * **A case** - I recommend starting with some cardboard and going from there! The source files here include the case I used here but a word of warning - it's far from ideal, the bent acrylic is very hard to do and I failed multiple times to bend it.
+* **Conectors** - I used these molex connectors to connect directly onto the Dekatron pins and soldered wires to them to run back to the PCB https://www.mouser.co.uk/ProductDetail/Molex/02-09-1119/?qs=%2Fha2pyFaduifASeTOyBQ3HsKMo2gdZFnqkuPfEWl7eE=
 
 ## Building this Hardware
 First of all you should be vaguely familiar with Dekatron driving. I recommend some time researching, especially threeneurons excellent site https://threeneurons.wordpress.com/dekatron-stuff/ and understanding the drive mechanism. With modern microcontrollers its fairly simple.
